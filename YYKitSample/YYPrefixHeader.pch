@@ -1,0 +1,27 @@
+//
+//  YYPrefixHeader.pch
+//  YYKitSample
+//
+//  Created by lichuanjun on 2017/10/11.
+//  Copyright © 2017年 lichuanjun. All rights reserved.
+//
+
+#ifndef YYPrefixHeader_pch
+#define YYPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import "YYModel/YYModel.h"
+#import "YYCache/YYCache.h"
+#import "YYImage/YYImage.h"
+#import "YYWebImage/YYWebImage.h"
+#import "YYText/YYText.h"
+#import "YYKeyboardManager/YYKeyboardManager.h"
+#import "YYDispatchQueuePool/YYDispatchQueuePool.h"
+#import "YYAsyncLayer/YYAsyncLayer.h"
+#import "YYCategories/YYCategories.h"
+
+#import "PINCache.h"
+
+#endif /* YYPrefixHeader_pch */
