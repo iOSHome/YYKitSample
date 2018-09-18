@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		7B44949A8653B49F26825C82 /* libPods-YYKitSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D5C2D4F55450C242D66E232 /* libPods-YYKitSample.a */; };
+		7E21432021509A6900C3274C /* TLSimpleModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E21431F21509A6900C3274C /* TLSimpleModel.json */; };
+		7E21432321509A9700C3274C /* TLUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E21432221509A9700C3274C /* TLUserModel.m */; };
+		7E21432621509B8400C3274C /* YYModelExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E21432521509B8400C3274C /* YYModelExample.m */; };
+		7E21432921509D2100C3274C /* TLSimpleModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E21432821509D2100C3274C /* TLSimpleModelVC.m */; };
 		7E6DA7EC1F8DEDA100E6C2E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA7EB1F8DEDA100E6C2E1 /* AppDelegate.m */; };
 		7E6DA7F41F8DEDA100E6C2E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA7F31F8DEDA100E6C2E1 /* Assets.xcassets */; };
 		7E6DA7F71F8DEDA100E6C2E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA7F51F8DEDA100E6C2E1 /* LaunchScreen.storyboard */; };
@@ -27,6 +31,22 @@
 		7E6DA8431F8E0B8300E6C2E1 /* TLDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA8421F8E0B8300E6C2E1 /* TLDiskCache.m */; };
 		7E6DA8461F8E0B9300E6C2E1 /* TLCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E6DA8451F8E0B9300E6C2E1 /* TLCache.m */; };
 		7E6DA8481F8E0DF200E6C2E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E6DA8471F8E0DE000E6C2E1 /* Default-568h@2x.png */; };
+		7ECA18A12150E0FC0012CD10 /* TLDoubleModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18A02150E0FC0012CD10 /* TLDoubleModel.json */; };
+		7ECA18A42150E1210012CD10 /* TLDoubleModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18A32150E1210012CD10 /* TLDoubleModelVC.m */; };
+		7ECA18A72150E1350012CD10 /* TLAuthorModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18A62150E1350012CD10 /* TLAuthorModel.m */; };
+		7ECA18AA2150E1490012CD10 /* TLBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18A92150E1490012CD10 /* TLBookModel.m */; };
+		7ECA18AD2150E57F0012CD10 /* TLDifferentJSONKey.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18AC2150E57F0012CD10 /* TLDifferentJSONKey.json */; };
+		7ECA18B02150E5C70012CD10 /* TLDifferentJSONKeyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18AF2150E5C70012CD10 /* TLDifferentJSONKeyModel.m */; };
+		7ECA18B32150E6000012CD10 /* TLDifferentJSONKeyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18B22150E6000012CD10 /* TLDifferentJSONKeyVC.m */; };
+		7ECA18B62150ED590012CD10 /* TLContainerModel.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18B52150ED590012CD10 /* TLContainerModel.json */; };
+		7ECA18B92150ED810012CD10 /* TLContainerModelVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18B82150ED810012CD10 /* TLContainerModelVC.m */; };
+		7ECA18BC2150ED910012CD10 /* TLContainerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18BB2150ED910012CD10 /* TLContainerModel.m */; };
+		7ECA18BF2150F24A0012CD10 /* TLBlacklistAndWhitelist.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18BE2150F24A0012CD10 /* TLBlacklistAndWhitelist.json */; };
+		7ECA18C22150F2650012CD10 /* TLBlacklistAndWhitelist.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18C12150F2650012CD10 /* TLBlacklistAndWhitelist.m */; };
+		7ECA18C52150F2800012CD10 /* TLBlacklistAndWhitelistVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18C42150F2800012CD10 /* TLBlacklistAndWhitelistVC.m */; };
+		7ECA18C82150F59F0012CD10 /* TLTimestamp.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18C72150F59F0012CD10 /* TLTimestamp.json */; };
+		7ECA18CB2150F5B50012CD10 /* TLTimestampVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18CA2150F5B50012CD10 /* TLTimestampVC.m */; };
+		7ECA18CE2150F6030012CD10 /* TLTimestampModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +69,13 @@
 /* Begin PBXFileReference section */
 		2D194375519D0A424572FEE2 /* Pods-YYKitSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKitSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YYKitSample/Pods-YYKitSample.debug.xcconfig"; sourceTree = "<group>"; };
 		7D5C2D4F55450C242D66E232 /* libPods-YYKitSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YYKitSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E21431F21509A6900C3274C /* TLSimpleModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLSimpleModel.json; sourceTree = "<group>"; };
+		7E21432121509A9700C3274C /* TLUserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLUserModel.h; sourceTree = "<group>"; };
+		7E21432221509A9700C3274C /* TLUserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLUserModel.m; sourceTree = "<group>"; };
+		7E21432421509B8400C3274C /* YYModelExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYModelExample.h; sourceTree = "<group>"; };
+		7E21432521509B8400C3274C /* YYModelExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYModelExample.m; sourceTree = "<group>"; };
+		7E21432721509D2100C3274C /* TLSimpleModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLSimpleModelVC.h; sourceTree = "<group>"; };
+		7E21432821509D2100C3274C /* TLSimpleModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLSimpleModelVC.m; sourceTree = "<group>"; };
 		7E6DA7E71F8DEDA100E6C2E1 /* YYKitSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYKitSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E6DA7EA1F8DEDA100E6C2E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7E6DA7EB1F8DEDA100E6C2E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -90,6 +117,33 @@
 		7E6DA8441F8E0B9300E6C2E1 /* TLCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCache.h; sourceTree = "<group>"; };
 		7E6DA8451F8E0B9300E6C2E1 /* TLCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCache.m; sourceTree = "<group>"; };
 		7E6DA8471F8E0DE000E6C2E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7ECA18A02150E0FC0012CD10 /* TLDoubleModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLDoubleModel.json; sourceTree = "<group>"; };
+		7ECA18A22150E1210012CD10 /* TLDoubleModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLDoubleModelVC.h; sourceTree = "<group>"; };
+		7ECA18A32150E1210012CD10 /* TLDoubleModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDoubleModelVC.m; sourceTree = "<group>"; };
+		7ECA18A52150E1350012CD10 /* TLAuthorModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLAuthorModel.h; sourceTree = "<group>"; };
+		7ECA18A62150E1350012CD10 /* TLAuthorModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLAuthorModel.m; sourceTree = "<group>"; };
+		7ECA18A82150E1490012CD10 /* TLBookModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBookModel.h; sourceTree = "<group>"; };
+		7ECA18A92150E1490012CD10 /* TLBookModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBookModel.m; sourceTree = "<group>"; };
+		7ECA18AC2150E57F0012CD10 /* TLDifferentJSONKey.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLDifferentJSONKey.json; sourceTree = "<group>"; };
+		7ECA18AE2150E5C70012CD10 /* TLDifferentJSONKeyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLDifferentJSONKeyModel.h; sourceTree = "<group>"; };
+		7ECA18AF2150E5C70012CD10 /* TLDifferentJSONKeyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDifferentJSONKeyModel.m; sourceTree = "<group>"; };
+		7ECA18B12150E6000012CD10 /* TLDifferentJSONKeyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLDifferentJSONKeyVC.h; sourceTree = "<group>"; };
+		7ECA18B22150E6000012CD10 /* TLDifferentJSONKeyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLDifferentJSONKeyVC.m; sourceTree = "<group>"; };
+		7ECA18B52150ED590012CD10 /* TLContainerModel.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLContainerModel.json; sourceTree = "<group>"; };
+		7ECA18B72150ED810012CD10 /* TLContainerModelVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLContainerModelVC.h; sourceTree = "<group>"; };
+		7ECA18B82150ED810012CD10 /* TLContainerModelVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLContainerModelVC.m; sourceTree = "<group>"; };
+		7ECA18BA2150ED910012CD10 /* TLContainerModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLContainerModel.h; sourceTree = "<group>"; };
+		7ECA18BB2150ED910012CD10 /* TLContainerModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLContainerModel.m; sourceTree = "<group>"; };
+		7ECA18BE2150F24A0012CD10 /* TLBlacklistAndWhitelist.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLBlacklistAndWhitelist.json; sourceTree = "<group>"; };
+		7ECA18C02150F2650012CD10 /* TLBlacklistAndWhitelist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBlacklistAndWhitelist.h; sourceTree = "<group>"; };
+		7ECA18C12150F2650012CD10 /* TLBlacklistAndWhitelist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBlacklistAndWhitelist.m; sourceTree = "<group>"; };
+		7ECA18C32150F2800012CD10 /* TLBlacklistAndWhitelistVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLBlacklistAndWhitelistVC.h; sourceTree = "<group>"; };
+		7ECA18C42150F2800012CD10 /* TLBlacklistAndWhitelistVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLBlacklistAndWhitelistVC.m; sourceTree = "<group>"; };
+		7ECA18C72150F59F0012CD10 /* TLTimestamp.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TLTimestamp.json; sourceTree = "<group>"; };
+		7ECA18C92150F5B50012CD10 /* TLTimestampVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLTimestampVC.h; sourceTree = "<group>"; };
+		7ECA18CA2150F5B50012CD10 /* TLTimestampVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTimestampVC.m; sourceTree = "<group>"; };
+		7ECA18CC2150F6030012CD10 /* TLTimestampModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLTimestampModel.h; sourceTree = "<group>"; };
+		7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTimestampModel.m; sourceTree = "<group>"; };
 		9AF529F59EE94C21118B099B /* Pods-YYKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYKitSample/Pods-YYKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,6 +173,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7E21431D2150995700C3274C /* TLModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E21431E215099A100C3274C /* SimpleModel */,
+				7ECA189F2150E0B50012CD10 /* DoubleModel */,
+				7ECA18AB2150E5470012CD10 /* DifferenyJsonKey */,
+				7ECA18B42150ED590012CD10 /* ContainModel */,
+				7ECA18BD2150F24A0012CD10 /* WhiteListAndBlacklist */,
+				7ECA18C62150F5750012CD10 /* TimeStamp */,
+				7E21432421509B8400C3274C /* YYModelExample.h */,
+				7E21432521509B8400C3274C /* YYModelExample.m */,
+			);
+			path = TLModel;
+			sourceTree = "<group>";
+		};
+		7E21431E215099A100C3274C /* SimpleModel */ = {
+			isa = PBXGroup;
+			children = (
+				7E21431F21509A6900C3274C /* TLSimpleModel.json */,
+				7E21432121509A9700C3274C /* TLUserModel.h */,
+				7E21432221509A9700C3274C /* TLUserModel.m */,
+				7E21432721509D2100C3274C /* TLSimpleModelVC.h */,
+				7E21432821509D2100C3274C /* TLSimpleModelVC.m */,
+			);
+			path = SimpleModel;
+			sourceTree = "<group>";
+		};
 		7E6DA7DE1F8DEDA100E6C2E1 = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +225,7 @@
 		7E6DA7E91F8DEDA100E6C2E1 /* YYKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				7E21431D2150995700C3274C /* TLModel */,
 				7E6DA8201F8DFD5800E6C2E1 /* TLCache */,
 				7E6DA8211F8DFD6B00E6C2E1 /* TLThirdLib */,
 				7E6DA7EA1F8DEDA100E6C2E1 /* AppDelegate.h */,
@@ -232,6 +314,68 @@
 			path = TLCache;
 			sourceTree = "<group>";
 		};
+		7ECA189F2150E0B50012CD10 /* DoubleModel */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18A02150E0FC0012CD10 /* TLDoubleModel.json */,
+				7ECA18A22150E1210012CD10 /* TLDoubleModelVC.h */,
+				7ECA18A32150E1210012CD10 /* TLDoubleModelVC.m */,
+				7ECA18A52150E1350012CD10 /* TLAuthorModel.h */,
+				7ECA18A62150E1350012CD10 /* TLAuthorModel.m */,
+				7ECA18A82150E1490012CD10 /* TLBookModel.h */,
+				7ECA18A92150E1490012CD10 /* TLBookModel.m */,
+			);
+			path = DoubleModel;
+			sourceTree = "<group>";
+		};
+		7ECA18AB2150E5470012CD10 /* DifferenyJsonKey */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18AC2150E57F0012CD10 /* TLDifferentJSONKey.json */,
+				7ECA18AE2150E5C70012CD10 /* TLDifferentJSONKeyModel.h */,
+				7ECA18AF2150E5C70012CD10 /* TLDifferentJSONKeyModel.m */,
+				7ECA18B12150E6000012CD10 /* TLDifferentJSONKeyVC.h */,
+				7ECA18B22150E6000012CD10 /* TLDifferentJSONKeyVC.m */,
+			);
+			path = DifferenyJsonKey;
+			sourceTree = "<group>";
+		};
+		7ECA18B42150ED590012CD10 /* ContainModel */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18B52150ED590012CD10 /* TLContainerModel.json */,
+				7ECA18B72150ED810012CD10 /* TLContainerModelVC.h */,
+				7ECA18B82150ED810012CD10 /* TLContainerModelVC.m */,
+				7ECA18BA2150ED910012CD10 /* TLContainerModel.h */,
+				7ECA18BB2150ED910012CD10 /* TLContainerModel.m */,
+			);
+			path = ContainModel;
+			sourceTree = "<group>";
+		};
+		7ECA18BD2150F24A0012CD10 /* WhiteListAndBlacklist */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18BE2150F24A0012CD10 /* TLBlacklistAndWhitelist.json */,
+				7ECA18C02150F2650012CD10 /* TLBlacklistAndWhitelist.h */,
+				7ECA18C12150F2650012CD10 /* TLBlacklistAndWhitelist.m */,
+				7ECA18C32150F2800012CD10 /* TLBlacklistAndWhitelistVC.h */,
+				7ECA18C42150F2800012CD10 /* TLBlacklistAndWhitelistVC.m */,
+			);
+			path = WhiteListAndBlacklist;
+			sourceTree = "<group>";
+		};
+		7ECA18C62150F5750012CD10 /* TimeStamp */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18C72150F59F0012CD10 /* TLTimestamp.json */,
+				7ECA18C92150F5B50012CD10 /* TLTimestampVC.h */,
+				7ECA18CA2150F5B50012CD10 /* TLTimestampVC.m */,
+				7ECA18CC2150F6030012CD10 /* TLTimestampModel.h */,
+				7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */,
+			);
+			path = TimeStamp;
+			sourceTree = "<group>";
+		};
 		D031D252578155DAEB43B1FB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -312,7 +456,7 @@
 		7E6DA7DF1F8DEDA100E6C2E1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = lichuanjun;
 				TargetAttributes = {
 					7E6DA7E61F8DEDA100E6C2E1 = {
@@ -356,9 +500,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECA18C82150F59F0012CD10 /* TLTimestamp.json in Resources */,
 				7E6DA8481F8E0DF200E6C2E1 /* Default-568h@2x.png in Resources */,
+				7E21432021509A6900C3274C /* TLSimpleModel.json in Resources */,
 				7E6DA7F71F8DEDA100E6C2E1 /* LaunchScreen.storyboard in Resources */,
+				7ECA18B62150ED590012CD10 /* TLContainerModel.json in Resources */,
+				7ECA18AD2150E57F0012CD10 /* TLDifferentJSONKey.json in Resources */,
+				7ECA18BF2150F24A0012CD10 /* TLBlacklistAndWhitelist.json in Resources */,
 				7E6DA7F41F8DEDA100E6C2E1 /* Assets.xcassets in Resources */,
+				7ECA18A12150E0FC0012CD10 /* TLDoubleModel.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,19 +554,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECA18B92150ED810012CD10 /* TLContainerModelVC.m in Sources */,
 				7E6DA81F1F8DFCDE00E6C2E1 /* YYRootViewController.m in Sources */,
 				7E6DA7FA1F8DEDA100E6C2E1 /* main.m in Sources */,
 				7E6DA8301F8E075B00E6C2E1 /* TLYYCachePKPINCache.m in Sources */,
 				7E6DA83B1F8E09E300E6C2E1 /* PINMemoryCache.m in Sources */,
 				7E6DA83A1F8E09E100E6C2E1 /* PINDiskCache.m in Sources */,
+				7E21432921509D2100C3274C /* TLSimpleModelVC.m in Sources */,
 				7E6DA82D1F8E06BC00E6C2E1 /* TLCacheLRU.m in Sources */,
 				7E6DA8461F8E0B9300E6C2E1 /* TLCache.m in Sources */,
 				7E6DA7EC1F8DEDA100E6C2E1 /* AppDelegate.m in Sources */,
+				7ECA18C52150F2800012CD10 /* TLBlacklistAndWhitelistVC.m in Sources */,
 				7E6DA8401F8E0B6F00E6C2E1 /* TLMemoryCache.m in Sources */,
 				7E6DA82A1F8DFE3D00E6C2E1 /* TLCacheAsync.m in Sources */,
+				7ECA18A42150E1210012CD10 /* TLDoubleModelVC.m in Sources */,
+				7ECA18B32150E6000012CD10 /* TLDifferentJSONKeyVC.m in Sources */,
+				7E21432621509B8400C3274C /* YYModelExample.m in Sources */,
 				7E6DA8241F8DFDC300E6C2E1 /* TLCacheExample.m in Sources */,
 				7E6DA8431F8E0B8300E6C2E1 /* TLDiskCache.m in Sources */,
+				7ECA18C22150F2650012CD10 /* TLBlacklistAndWhitelist.m in Sources */,
+				7ECA18CB2150F5B50012CD10 /* TLTimestampVC.m in Sources */,
+				7ECA18BC2150ED910012CD10 /* TLContainerModel.m in Sources */,
+				7ECA18A72150E1350012CD10 /* TLAuthorModel.m in Sources */,
+				7ECA18CE2150F6030012CD10 /* TLTimestampModel.m in Sources */,
 				7E6DA8271F8DFE2000E6C2E1 /* TLCacheSync.m in Sources */,
+				7E21432321509A9700C3274C /* TLUserModel.m in Sources */,
+				7ECA18B02150E5C70012CD10 /* TLDifferentJSONKeyModel.m in Sources */,
+				7ECA18AA2150E1490012CD10 /* TLBookModel.m in Sources */,
 				7E6DA83C1F8E09E600E6C2E1 /* PINCache.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -478,6 +642,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -485,6 +650,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -533,6 +699,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -540,6 +707,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

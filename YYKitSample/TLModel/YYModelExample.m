@@ -1,40 +1,34 @@
 //
-//  YYRootViewController.m
+//  YYModelExample.m
 //  YYKitSample
 //
-//  Created by lichuanjun on 2017/10/11.
-//  Copyright © 2017年 lichuanjun. All rights reserved.
+//  Created by lichuanjun on 2018/9/18.
+//  Copyright © 2018年 lichuanjun. All rights reserved.
 //
 
-#import "YYRootViewController.h"
+#import "YYModelExample.h"
 
-@interface YYRootViewController ()
+@interface YYModelExample ()
 
 @property (nonatomic, strong) NSMutableArray *titles;
 @property (nonatomic, strong) NSMutableArray *classNames;
 
 @end
 
-@implementation YYRootViewController
+@implementation YYModelExample
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"YYKit Example";
+    self.title = @"YYModel";
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
-    [self addCell:@"Cache" class:@"TLCacheExample"];
-    [self addCell:@"Model" class:@"YYModelExample"];
-//    [self addCell:@"Image" class:@"YYImageExample"];
-//    [self addCell:@"Text" class:@"YYTextExample"];
-//    [self addCell:@"Utility" class:@"YYUtilityExample"];
-//    [self addCell:@"Feed List Demo" class:@"YYFeedListExample"];
-    [self.tableView reloadData];
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self addCell:@"SimpleModel(简单的数据模型)" class:@"TLSimpleModelVC"];
+    [self addCell:@"DoubleModelVC(双模型)" class:@"TLDoubleModelVC"];
+    [self addCell:@"DifferentJSONKey(键值和属性不同)" class:@"TLDifferentJSONKeyVC"];
+    [self addCell:@"Container Property(容器模型)" class:@"TLContainerModelVC"];
+    [self addCell:@"WhiteList&BlackList(黑白名单)" class:@"TLBlacklistAndWhitelistVC"];
+    [self addCell:@"TimeStamp" class:@"TLTimestampVC"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
@@ -49,9 +43,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YY"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YYModelExample"];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YY"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YYModelExample"];
     }
     cell.textLabel.text = _titles[indexPath.row];
     return cell;
