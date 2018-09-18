@@ -16,15 +16,27 @@ PODS:
     - YYImage
 
 DEPENDENCIES:
-  - YYAsyncLayer
-  - YYCache
-  - YYCategories
-  - YYDispatchQueuePool
-  - YYImage
-  - YYKeyboardManager
-  - YYModel
-  - YYText
-  - YYWebImage
+  - YYAsyncLayer (>= 1.0)
+  - YYCache (>= 1.0.4)
+  - YYCategories (>= 1.0.4)
+  - YYDispatchQueuePool (>= 1.0)
+  - YYImage (>= 1.0.4)
+  - YYKeyboardManager (>= 1.0.1)
+  - YYModel (>= 1.0.4)
+  - YYText (>= 1.0.7)
+  - YYWebImage (>= 1.0.5)
+
+SPEC REPOS:
+  https://git.coding.net/CocoaPods/Specs.git:
+    - YYAsyncLayer
+    - YYCache
+    - YYCategories
+    - YYDispatchQueuePool
+    - YYImage
+    - YYKeyboardManager
+    - YYModel
+    - YYText
+    - YYWebImage
 
 SPEC CHECKSUMS:
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
@@ -37,6 +49,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: af713aa9e4018fdf1350244df352c15e9de70495
+PODFILE CHECKSUM: 7085cd1cb42120cf82bd5f7c1edc7e46b65e3a52
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.5.3
