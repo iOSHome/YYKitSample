@@ -47,6 +47,8 @@
 		7ECA18C82150F59F0012CD10 /* TLTimestamp.json in Resources */ = {isa = PBXBuildFile; fileRef = 7ECA18C72150F59F0012CD10 /* TLTimestamp.json */; };
 		7ECA18CB2150F5B50012CD10 /* TLTimestampVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18CA2150F5B50012CD10 /* TLTimestampVC.m */; };
 		7ECA18CE2150F6030012CD10 /* TLTimestampModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */; };
+		7ECA18D5215253630012CD10 /* TLArticleCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18D4215253630012CD10 /* TLArticleCacheModel.m */; };
+		7ECA18D8215254260012CD10 /* TLCustomObjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -144,6 +146,10 @@
 		7ECA18CA2150F5B50012CD10 /* TLTimestampVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTimestampVC.m; sourceTree = "<group>"; };
 		7ECA18CC2150F6030012CD10 /* TLTimestampModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLTimestampModel.h; sourceTree = "<group>"; };
 		7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLTimestampModel.m; sourceTree = "<group>"; };
+		7ECA18D3215253630012CD10 /* TLArticleCacheModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLArticleCacheModel.h; sourceTree = "<group>"; };
+		7ECA18D4215253630012CD10 /* TLArticleCacheModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLArticleCacheModel.m; sourceTree = "<group>"; };
+		7ECA18D6215254260012CD10 /* TLCustomObjectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCustomObjectVC.h; sourceTree = "<group>"; };
+		7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCustomObjectVC.m; sourceTree = "<group>"; };
 		9AF529F59EE94C21118B099B /* Pods-YYKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYKitSample/Pods-YYKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -263,6 +269,7 @@
 		7E6DA8201F8DFD5800E6C2E1 /* TLCache */ = {
 			isa = PBXGroup;
 			children = (
+				7ECA18D2215253370012CD10 /* CustomObject */,
 				7E6DA8221F8DFDC300E6C2E1 /* TLCacheExample.h */,
 				7E6DA8231F8DFDC300E6C2E1 /* TLCacheExample.m */,
 				7E6DA8251F8DFE2000E6C2E1 /* TLCacheSync.h */,
@@ -374,6 +381,17 @@
 				7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */,
 			);
 			path = TimeStamp;
+			sourceTree = "<group>";
+		};
+		7ECA18D2215253370012CD10 /* CustomObject */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18D3215253630012CD10 /* TLArticleCacheModel.h */,
+				7ECA18D4215253630012CD10 /* TLArticleCacheModel.m */,
+				7ECA18D6215254260012CD10 /* TLCustomObjectVC.h */,
+				7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */,
+			);
+			path = CustomObject;
 			sourceTree = "<group>";
 		};
 		D031D252578155DAEB43B1FB /* Frameworks */ = {
@@ -566,9 +584,11 @@
 				7E6DA7EC1F8DEDA100E6C2E1 /* AppDelegate.m in Sources */,
 				7ECA18C52150F2800012CD10 /* TLBlacklistAndWhitelistVC.m in Sources */,
 				7E6DA8401F8E0B6F00E6C2E1 /* TLMemoryCache.m in Sources */,
+				7ECA18D5215253630012CD10 /* TLArticleCacheModel.m in Sources */,
 				7E6DA82A1F8DFE3D00E6C2E1 /* TLCacheAsync.m in Sources */,
 				7ECA18A42150E1210012CD10 /* TLDoubleModelVC.m in Sources */,
 				7ECA18B32150E6000012CD10 /* TLDifferentJSONKeyVC.m in Sources */,
+				7ECA18D8215254260012CD10 /* TLCustomObjectVC.m in Sources */,
 				7E21432621509B8400C3274C /* YYModelExample.m in Sources */,
 				7E6DA8241F8DFDC300E6C2E1 /* TLCacheExample.m in Sources */,
 				7E6DA8431F8E0B8300E6C2E1 /* TLDiskCache.m in Sources */,

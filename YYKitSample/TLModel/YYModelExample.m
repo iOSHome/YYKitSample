@@ -24,7 +24,7 @@
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
     [self addCell:@"SimpleModel(简单的数据模型)" class:@"TLSimpleModelVC"];
-    [self addCell:@"DoubleModelVC(双模型)" class:@"TLDoubleModelVC"];
+    [self addCell:@"DoubleModel(双模型)" class:@"TLDoubleModelVC"];
     [self addCell:@"DifferentJSONKey(键值和属性不同)" class:@"TLDifferentJSONKeyVC"];
     [self addCell:@"Container Property(容器模型)" class:@"TLContainerModelVC"];
     [self addCell:@"WhiteList&BlackList(黑白名单)" class:@"TLBlacklistAndWhitelistVC"];

@@ -27,6 +27,7 @@
     [self addCell:@"Async" class:@"TLCacheAsync"];
     [self addCell:@"LRU" class:@"TLCacheLRU"];
     [self addCell:@"YYCachePKPINCache" class:@"TLYYCachePKPINCache"];
+    [self addCell:@"CustomObject" class:@"TLCustomObjectVC"];
     
     [self.tableView reloadData];
 }

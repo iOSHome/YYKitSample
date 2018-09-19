@@ -62,7 +62,7 @@ static NSString const *TLDiskCachePrefix = @"com.leecj.TLDiskCache";
     __weak TLDiskCache *weakSelf= self;
     dispatch_sync(_currentQueue, ^{
         NSURL *fileUrl = nil;
-        dispatch_semaphore_wait(_lockSemaphore, DISPATCH_TIME_FOREVER);
+        dispatch_semaphore_wait(self->_lockSemaphore, DISPATCH_TIME_FOREVER);
         fileUrl = [self encodedFileURLForKey:key];
         
         NSData *data = [NSKeyedArchiver archivedDataWithRootObject:object];
@@ -71,7 +71,7 @@ static NSString const *TLDiskCachePrefix = @"com.leecj.TLDiskCache";
         if (!written) {
             fileUrl = nil;
         }
-        dispatch_semaphore_signal(_lockSemaphore);
+        dispatch_semaphore_signal(self->_lockSemaphore);
         
         if (block) {
             block(weakSelf, key, object);
