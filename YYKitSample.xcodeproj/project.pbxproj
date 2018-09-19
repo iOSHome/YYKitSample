@@ -49,6 +49,8 @@
 		7ECA18CE2150F6030012CD10 /* TLTimestampModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18CD2150F6030012CD10 /* TLTimestampModel.m */; };
 		7ECA18D5215253630012CD10 /* TLArticleCacheModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18D4215253630012CD10 /* TLArticleCacheModel.m */; };
 		7ECA18D8215254260012CD10 /* TLCustomObjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */; };
+		7ECA18E021527A9B0012CD10 /* YYLabelMultipleClickTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18DF21527A9B0012CD10 /* YYLabelMultipleClickTextVC.m */; };
+		7ECA18E321527AEE0012CD10 /* YYTextExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECA18E221527AEE0012CD10 /* YYTextExample.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +152,10 @@
 		7ECA18D4215253630012CD10 /* TLArticleCacheModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLArticleCacheModel.m; sourceTree = "<group>"; };
 		7ECA18D6215254260012CD10 /* TLCustomObjectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TLCustomObjectVC.h; sourceTree = "<group>"; };
 		7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TLCustomObjectVC.m; sourceTree = "<group>"; };
+		7ECA18DE21527A9B0012CD10 /* YYLabelMultipleClickTextVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYLabelMultipleClickTextVC.h; sourceTree = "<group>"; };
+		7ECA18DF21527A9B0012CD10 /* YYLabelMultipleClickTextVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYLabelMultipleClickTextVC.m; sourceTree = "<group>"; };
+		7ECA18E121527AEE0012CD10 /* YYTextExample.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYTextExample.h; sourceTree = "<group>"; };
+		7ECA18E221527AEE0012CD10 /* YYTextExample.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYTextExample.m; sourceTree = "<group>"; };
 		9AF529F59EE94C21118B099B /* Pods-YYKitSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYKitSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-YYKitSample/Pods-YYKitSample.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -231,6 +237,7 @@
 		7E6DA7E91F8DEDA100E6C2E1 /* YYKitSample */ = {
 			isa = PBXGroup;
 			children = (
+				7ECA18D921527A310012CD10 /* TLText */,
 				7E21431D2150995700C3274C /* TLModel */,
 				7E6DA8201F8DFD5800E6C2E1 /* TLCache */,
 				7E6DA8211F8DFD6B00E6C2E1 /* TLThirdLib */,
@@ -392,6 +399,25 @@
 				7ECA18D7215254260012CD10 /* TLCustomObjectVC.m */,
 			);
 			path = CustomObject;
+			sourceTree = "<group>";
+		};
+		7ECA18D921527A310012CD10 /* TLText */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18DD21527A9B0012CD10 /* YYLabel */,
+				7ECA18E121527AEE0012CD10 /* YYTextExample.h */,
+				7ECA18E221527AEE0012CD10 /* YYTextExample.m */,
+			);
+			path = TLText;
+			sourceTree = "<group>";
+		};
+		7ECA18DD21527A9B0012CD10 /* YYLabel */ = {
+			isa = PBXGroup;
+			children = (
+				7ECA18DE21527A9B0012CD10 /* YYLabelMultipleClickTextVC.h */,
+				7ECA18DF21527A9B0012CD10 /* YYLabelMultipleClickTextVC.m */,
+			);
+			path = YYLabel;
 			sourceTree = "<group>";
 		};
 		D031D252578155DAEB43B1FB /* Frameworks */ = {
@@ -585,8 +611,10 @@
 				7ECA18C52150F2800012CD10 /* TLBlacklistAndWhitelistVC.m in Sources */,
 				7E6DA8401F8E0B6F00E6C2E1 /* TLMemoryCache.m in Sources */,
 				7ECA18D5215253630012CD10 /* TLArticleCacheModel.m in Sources */,
+				7ECA18E321527AEE0012CD10 /* YYTextExample.m in Sources */,
 				7E6DA82A1F8DFE3D00E6C2E1 /* TLCacheAsync.m in Sources */,
 				7ECA18A42150E1210012CD10 /* TLDoubleModelVC.m in Sources */,
+				7ECA18E021527A9B0012CD10 /* YYLabelMultipleClickTextVC.m in Sources */,
 				7ECA18B32150E6000012CD10 /* TLDifferentJSONKeyVC.m in Sources */,
 				7ECA18D8215254260012CD10 /* TLCustomObjectVC.m in Sources */,
 				7E21432621509B8400C3274C /* YYModelExample.m in Sources */,

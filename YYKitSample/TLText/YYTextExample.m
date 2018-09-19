@@ -1,36 +1,29 @@
 //
-//  YYRootViewController.m
+//  YYTextExample.m
 //  YYKitSample
 //
-//  Created by lichuanjun on 2017/10/11.
-//  Copyright © 2017年 lichuanjun. All rights reserved.
+//  Created by lichuanjun on 2018/9/19.
+//  Copyright © 2018年 lichuanjun. All rights reserved.
 //
 
-#import "YYRootViewController.h"
+#import "YYTextExample.h"
 
-@interface YYRootViewController ()
+@interface YYTextExample ()
 
 @property (nonatomic, strong) NSMutableArray *titles;
 @property (nonatomic, strong) NSMutableArray *classNames;
 
 @end
 
-@implementation YYRootViewController
+@implementation YYTextExample
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.title = @"YYKit Example";
+    self.title = @"YYModel";
     self.titles = @[].mutableCopy;
     self.classNames = @[].mutableCopy;
-    [self addCell:@"YYCache" class:@"YYCacheExample"];
-    [self addCell:@"YYModel" class:@"YYModelExample"];
-    [self addCell:@"YYText" class:@"YYTextExample"];
-//    [self addCell:@"Image" class:@"YYImageExample"];
-//    [self addCell:@"Text" class:@"YYTextExample"];
-//    [self addCell:@"Utility" class:@"YYUtilityExample"];
-//    [self addCell:@"Feed List Demo" class:@"YYFeedListExample"];
-    [self.tableView reloadData];
+    [self addCell:@"YYLabel(多个单击文本)" class:@"YYLabelMultipleClickTextVC"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -50,9 +43,9 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YY"];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"YYTextExample"];
     if (!cell) {
-        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YY"];
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"YYTextExample"];
     }
     cell.textLabel.text = _titles[indexPath.row];
     return cell;
