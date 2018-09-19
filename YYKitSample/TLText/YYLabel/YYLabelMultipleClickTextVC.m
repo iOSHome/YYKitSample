@@ -23,7 +23,7 @@
     text.yy_lineSpacing = 5;
     
     text.yy_font = [UIFont systemFontOfSize:14];
-    text.yy_color = [UIColor blueColor];
+    text.yy_color = [UIColor darkGrayColor];
     [text yy_setTextHighlightRange:NSMakeRange(13, 9) color:[UIColor redColor] backgroundColor:[UIColor clearColor] tapAction:^(UIView * _Nonnull containerView, NSAttributedString * _Nonnull text, NSRange range, CGRect rect) {
         NSLog(@"用户协议被点击了");
         
@@ -34,7 +34,7 @@
         
     }];
     
-    YYLabel *agreementLabel = [[YYLabel alloc] initWithFrame:CGRectMake(15, 100, kScreenWidth-30, 100)];
+    YYLabel *agreementLabel = [[YYLabel alloc] initWithFrame:CGRectMake(15, self.view.height / 2 - (kiOS7Later ? 0 : 32), kScreenWidth-30, 100)];
     agreementLabel.numberOfLines = 0;
     agreementLabel.preferredMaxLayoutWidth = kScreenWidth-85;//最大宽度
     agreementLabel.attributedText = text;
