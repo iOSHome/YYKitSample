@@ -29,6 +29,8 @@
     [self addCell:@"Container Property(容器模型)" class:@"TLContainerModelVC"];
     [self addCell:@"WhiteList&BlackList(黑白名单)" class:@"TLBlacklistAndWhitelistVC"];
     [self addCell:@"TimeStamp" class:@"TLTimestampVC"];
+    [self addCell:@"多样化的数据类型交换" class:@"TLMoreChangeVC"];
+    [self addCell:@"自定义类数据转换" class:@"TLDefineChangeVC"];
 }
 
 - (void)addCell:(NSString *)title class:(NSString *)className {
