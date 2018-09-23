@@ -200,14 +200,14 @@
 		7E21431D2150995700C3274C /* TLModel */ = {
 			isa = PBXGroup;
 			children = (
-				7ECA18EF215760B70012CD10 /* DefineChange */,
-				7ECA18E821575EDA0012CD10 /* MoreChange */,
 				7E21431E215099A100C3274C /* SimpleModel */,
 				7ECA189F2150E0B50012CD10 /* DoubleModel */,
 				7ECA18AB2150E5470012CD10 /* DifferenyJsonKey */,
 				7ECA18B42150ED590012CD10 /* ContainModel */,
 				7ECA18BD2150F24A0012CD10 /* WhiteListAndBlacklist */,
 				7ECA18C62150F5750012CD10 /* TimeStamp */,
+				7ECA18EF215760B70012CD10 /* DefineChange */,
+				7ECA18E821575EDA0012CD10 /* MoreChange */,
 				7E21432421509B8400C3274C /* YYModelExample.h */,
 				7E21432521509B8400C3274C /* YYModelExample.m */,
 			);
